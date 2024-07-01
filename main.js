@@ -416,14 +416,14 @@ global.reloadHandler = async function(restatConn) {
 
   // Para cambiar estos mensajes, solo los archivos en la carpeta de language, 
   // busque la clave "handler" dentro del json y cámbiela si es necesario
-  conn.welcome = '👋 ¡Bienvenido/a!\n@user';
-  conn.bye = '👋 ¡Hasta luego!\n@user';
-  conn.spromote = '*[ ℹ️ ] @user Fue promovido a administrador.*';
-  conn.sdemote = '*[ ℹ️ ] @user Fue degradado de administrador.*';
-  conn.sDesc = '*[ ℹ️ ] La descripción del grupo ha sido modificada.*';
-  conn.sSubject = '*[ ℹ️ ] El nombre del grupo ha sido modificado.*';
-  conn.sIcon = '*[ ℹ️ ] Se ha cambiado la foto de perfil del grupo.*';
-  conn.sRevoke = '*[ ℹ️ ] El enlace de invitación al grupo ha sido restablecido.*';
+  conn.welcome = 'منور الجروب يا حب اقرأ الوصف بعنايه Heisenberg-BOT\n@user';
+  conn.bye ='اال يغور يجي بداله طبور\n@user';
+  conn.spromote = '*[ ℹ️ ] @user بقي ادمن.*';
+  conn.sdemote = '*[ ℹ️ ] @user كل واتغذي كده وانشاء الله لما تكبر تبقي ادمن.*';
+  conn.sDesc = '*[ ℹ️ ] متبطلو لعب بقا تم تعديل وصف المجموعه🙂.*';
+  conn.sSubject = '*[ ℹ️ ] تم تغير اسم المجموعه لانه كان مش عاجبنا 🙂.*';
+  conn.sIcon = '*[ ℹ️ ] حد حط صوره للجروب اتاكدو كده انها حلوه 😂.*';
+  conn.sRevoke = '*[ ℹ️ ] رابط جديد للمجموعه تم اعاده تعينه.*';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
